@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Livvic:wght@500;600;700&display=swap");
+
 /* Variables */
 $color-blue: #3535ec;
 $color-darkblue: #120945;
@@ -12,4 +14,11 @@ $color-yellow: #f2ad41;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+html {
+	font-family: "Livvic", sans-serif;
+	background-color: $color-blue;
+	color: white;
+	text-align: center;
 }
